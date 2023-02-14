@@ -13,7 +13,7 @@ function App() {
         <Header />
         <div className='App'>
             <Routes>
-                <Route path="/chatgpt" element={ <ChatGpt />} />
+                <Route path="/" element={ <ChatGpt />} />
                 <Route path="/images" element={ <GenerateImage />} />
             </Routes>
         </div>
